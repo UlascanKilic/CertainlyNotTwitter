@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterPage"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        >
+
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/btn_goto_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Already have an account? Sign in"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38dp"
+            android:text="CREATE ACCOUNT"
+            android:textColor="#ffffff"
+            android:textSize="23dp" />
+
+
+        <TextView
+            android:id="@+id/btn_registerPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_goto_login"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rect"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Continue"
+            android:textColor="#ffffff"
+            android:textSize="19dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="474dp"
+            android:layout_marginTop="-35dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txt_register_userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="170dp"
+                android:background="@drawable/rect1"
+                android:drawableLeft="@drawable/user"
+                android:drawablePadding="16dp"
+                android:hint="Name"
+                android:paddingBottom="16dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="16dp"
+                android:textColor="#fff"
+                android:textColorHint="#ffffff"></EditText>
+
+            <EditText
+                android:id="@+id/txt_register_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rect1"
+                android:drawableLeft="@drawable/pass"
+                android:drawablePadding="16dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingBottom="16dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="16dp"
+                android:textColor="#fff"
+                android:textColorHint="#ffffff"></EditText>
+
+            <RadioGroup
+                android:id="@+id/radioGroupAvatar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButtonAv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="Dog"
+                    android:textColor="@color/txtLoginPage" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonAv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Fox"
+                    android:textColor="@color/txtLoginPage" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonAv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Giraffe"
+                    android:textColor="@color/txtLoginPage" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonAv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Monkey"
+                    android:textColor="@color/txtLoginPage" />
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/avatar1" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

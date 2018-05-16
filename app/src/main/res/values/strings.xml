@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CertainlyNotTwitter</string>
+    <string name="message"></string>
+    <string name="username"></string>
+    <string name="avatarIndex"></string>
+    <string name="messageID"></string>
+</resources>

@@ -1,0 +1,16 @@
+Uygulama hakkýnda önceden bilinmesi gereken özellikler : 
+
+- Uygulamaya bir kere giriþ yaptýðýnýz zaman, profil sayfasýndan çýkýþ yapmadýðýnýz
+sürece uygulamayý her açtýðýnýzda en son býraktýðýnýz oturumdan devam edersiniz.
+
+- Floating Action Button isteðiniz üzere 3 adet fake data eklemesi yapýyor.
+
+- Eklenen fake datalarýn kullanýcý adý ve avatar kýsmý o an login olduðunuz hesaba ait olacaktýr.
+
+- Tweety'lerin detaylarýna profil sayfasýndan eriþim saðlayabilirsiniz.
+
+- Profil sayfasýnda sadece kendi yazdýðýnýz Tweety'leri görebilir, deðiþiklik yapabilirsiniz.
+
+- Yeni Tweety eklemek isterseniz profil sayfasýnda Tweety ekleme kýsmý bulunmakta.
+
+

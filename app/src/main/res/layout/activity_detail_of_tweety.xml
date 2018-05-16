@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+
+    tools:context=".DetailOfTweety">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewDetail"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/avatar1" />
+
+            <TextView
+                android:id="@+id/txtUserNameDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:text="Username"
+                android:textColor="@color/colorBaslik"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+
+                android:background="#ffffff" />
+
+            <TextView
+                android:id="@+id/txtMessageDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorBaslik"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+
+                android:background="#ffffff" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/btn_delete"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect"
+                android:gravity="center"
+                android:padding="14dp"
+                android:text="Delete"
+                android:textColor="#ffffff"  />
+
+            <TextView
+                android:id="@+id/btn_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:padding="14dp"
+                android:text="Update"
+                android:textColor="#ffffff"  />
+
+            <EditText
+                android:id="@+id/txt_update"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rect_tweet"
+                android:ems="10"
+                android:hint="Write Something!"
+                android:inputType="textMultiLine"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_marginBottom="5dp"
+                android:textColorHint="#ffffff" />
+
+            <TextView
+                android:id="@+id/btn_send_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Update!"
+                android:textColor="#ffffff"
+                android:textSize="19dp" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
